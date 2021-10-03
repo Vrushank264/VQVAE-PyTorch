@@ -20,13 +20,16 @@ Vector Quantization loss encourages the items in the codebook to move closer to 
 
 The Model is trained on MNIST and CIFAR10 datasets.  
 
+<h4> Target :point_right: Reconstructed Image </h4> <br>
 <p float="left">
   <img src="https://github.com/Vrushank264/VQVAE-PyTorch/blob/main/Results/target_mnist.png" />
+  :point_right:
   <img src="https://github.com/Vrushank264/VQVAE-PyTorch/blob/main/Results/recon_mnist.png" /> 
 </p>
 
 <p float="left">
   <img src="https://github.com/Vrushank264/VQVAE-PyTorch/blob/main/Results/target_cifar10.png" />
+  :point_right:
   <img src="https://github.com/Vrushank264/VQVAE-PyTorch/blob/main/Results/recon_cifar10.png" /> 
 </p>
 
