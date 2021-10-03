@@ -1,4 +1,4 @@
-Pytorch implementation of [VQVAE](https://arxiv.org/abs/1711.00937)
+Pytorch implementation of [VQVAE](https://arxiv.org/abs/1711.00937).
 
 This paper combines 2 tricks:
 1) Vector Quantization (check out this amazing [blog](https://wiki.aalto.fi/pages/viewpage.action?pageId=149883153) for better understanding.)
