@@ -18,19 +18,20 @@ Vector Quantization loss encourages the items in the codebook to move closer to 
 
 ## Results:
 
-The Model is trained on CIFAR10 and MNIST dataset.  
+The Model is trained on MNIST and CIFAR10 datasets.  
 
-![gif](https://github.com/Vrushank264/VQVAE-PyTorch/blob/main/Results/interpolation.gif)
+<p float="left">
+  <img src="https://github.com/Vrushank264/VQVAE-PyTorch/blob/main/Results/target_mnist.png" />
+  <img src="https://github.com/Vrushank264/VQVAE-PyTorch/blob/main/Results/recon_mnist.png" /> 
+</p>
 
 <p float="left">
   <img src="https://github.com/Vrushank264/VQVAE-PyTorch/blob/main/Results/target_cifar10.png" />
   <img src="https://github.com/Vrushank264/VQVAE-PyTorch/blob/main/Results/recon_cifar10.png" /> 
 </p>
 
-<p float="left">
-  <img src="https://github.com/Vrushank264/VQVAE-PyTorch/blob/main/Results/target_mnist.png" />
-  <img src="https://github.com/Vrushank264/VQVAE-PyTorch/blob/main/Results/recon_mnist.png" /> 
-</p>
+
+![gif](https://github.com/Vrushank264/VQVAE-PyTorch/blob/main/Results/interpolation.gif)
 
 
 ## Details:
