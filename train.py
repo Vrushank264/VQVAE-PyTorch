@@ -52,9 +52,9 @@ def test(loader, model, writer, device = torch.device('cuda'), steps = 0):
         vq_loss /= len(loader)
         commitment_loss /= len(loader)
         
-    writer.add_scalar("loss/train/reconstruction", recon_loss.item(), steps)
-    writer.add_scalar("loss/train/quantization", vq_loss.item(), steps)
-    writer.add_scalar("loss/train/commitment", commitment_loss.item(), steps)
+    writer.add_scalar("loss/test/reconstruction", recon_loss.item(), steps)
+    writer.add_scalar("loss/test/quantization", vq_loss.item(), steps)
+    writer.add_scalar("loss/test/commitment", commitment_loss.item(), steps)
     
     return recon_loss.item(), vq_loss.item(), commitment_loss.item()
 
